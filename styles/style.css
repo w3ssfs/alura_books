@@ -3,6 +3,7 @@
 @import url(../styles/carrossel.css);
 @import url(./topic.css);
 @import url(../styles/contact.css);
+@import url(../styles/footer.css);
 
 body {
   background-color: var(--cor-de-fundo);
