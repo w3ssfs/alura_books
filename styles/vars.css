@@ -5,10 +5,10 @@
   --font-poppins: "Poppins", sans-serif;
 
   /* COLOR */
-
   --cor-de-fundo: #ebecee;
   --cor-branco: #ffffff;
   --cor-laranja: #eb9b00;
+  --cor-azul: #002f52;
   --cor-azul-degrade: linear-gradient(
     97.54deg,
     #002f52 35.49%,
