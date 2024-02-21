@@ -34,6 +34,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5em;
+  gap: 1em;
 }
 
 .card__botton {
@@ -71,4 +72,10 @@
   padding: 1em 2.2em;
   color: var(--cor-branco);
   font-weight: 700;
+}
+
+.description__star {
+  display: flex;
+  gap: 0.2em;
+  margin-bottom: 1em;
 }
