@@ -1,6 +1,7 @@
 @import url(../styles/vars.css);
 @import url(../styles/banner.css);
 @import url(../styles/carrossel.css);
+@import url(./topic.css);
 
 body {
   background-color: var(--cor-de-fundo);
