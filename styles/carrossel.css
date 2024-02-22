@@ -74,3 +74,26 @@
   color: var(--cor-branco);
   font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+  .carrossel__title {
+    font-size: 26px;
+    padding: 2em 0 1em 0;
+  }
+  .swiper-pagination {
+    position: initial;
+    margin: 2em 0 3em 0;
+  }
+  .swiper {
+    width: 70%;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+  .card {
+    width: 40%;
+    margin: 3em auto;
+  }
+}
