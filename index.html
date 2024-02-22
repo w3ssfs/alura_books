@@ -13,6 +13,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
@@ -50,13 +54,45 @@
           alt="Logo alurabooks"
           class="container__image"
         />
+        <h1 class="container__title">
+          <b class="container__title--negrito">Alura</b>Boooks
+        </h1>
       </div>
+
+      <ul class="opt">
+        <input type="checkbox" class="opt__btn" id="opt-menu" />
+        <label for="opt-menu">
+          <li class="opt__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Desing & UX</a>
+          </li>
+        </ul>
+        <li class="opt__item"><a href="#" class="opt__link">Favoritos</a></li>
+        <li class="opt__item">
+          <a href="#" class="opt__link">Minha Estante</a>
+        </li>
+      </ul>
+
       <div class="container">
         <a href="">
           <img
             src="./imagens/Favoritos.svg"
             alt="favoritos"
-            class="container__image"
+            class="container__image coracao"
         /></a>
         <a href=""
           ><img

@@ -3,8 +3,10 @@
 :root {
   /* FONTS */
   --font-poppins: "Poppins", sans-serif;
+  --font-jose: "Josefin Sans", sans-serif;
 
   /* COLOR */
+  --cor-black: #000;
   --cor-de-fundo: #ebecee;
   --cor-branco: #ffffff;
   --cor-brancoEscuro: #f9f9f9;

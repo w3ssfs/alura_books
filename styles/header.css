@@ -29,6 +29,7 @@
   position: absolute;
   top: 100%;
   width: 60vw;
+  background-color: var(--cor-branco);
 }
 
 .container__btn:checked ~ .lista-menu {
@@ -56,4 +57,59 @@
 
 .container__btn {
   display: none;
+}
+
+.container__title {
+  display: none;
+}
+
+.opt {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__title,
+  .container__title--negrito {
+    font-family: var(--font-jose);
+    font-size: 30px;
+  }
+  .container__title {
+    font-weight: 400;
+    display: block;
+  }
+  .container__title--negrito {
+    font-size: 700;
+  }
+  .opt {
+    display: flex;
+  }
+
+  .opt__item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+
+  .opt__link {
+    text-decoration: none;
+    color: var(--cor-black);
+  }
+  .coracao {
+    display: none;
+  }
+  .container__image {
+    padding: 1em 2em;
+  }
+  .cabecalho__menu__hamburguer {
+    display: none;
+  }
+
+  .opt__btn {
+    display: none;
+  }
+
+  .opt__btn:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+    background-color: var(--cor-branco);
+  }
 }
