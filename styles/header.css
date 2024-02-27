@@ -18,6 +18,7 @@
 .container {
   display: flex;
   align-items: center;
+  padding: 1em 2em;
 }
 
 .container__image {
@@ -33,7 +34,9 @@
 }
 
 .container__btn:checked ~ .lista-menu {
+  background: var(--cor-azul-degrade);
   display: block;
+  cursor: pointer;
 }
 
 .lista-menu__titulo,
@@ -54,7 +57,14 @@
   background-clip: text;
   text-transform: uppercase;
 }
-
+.lista-menu__item:hover {
+  background: var(--cor-azul-degrade);
+}
+.lista-menu__link:hover {
+  background: var(--cor-branco);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .container__btn {
   display: none;
 }
@@ -64,6 +74,9 @@
 }
 
 .opt {
+  display: none;
+}
+.container__text {
   display: none;
 }
 
@@ -96,9 +109,7 @@
   .coracao {
     display: none;
   }
-  .container__image {
-    padding: 1em 2em;
-  }
+
   .cabecalho__menu__hamburguer {
     display: none;
   }
@@ -111,5 +122,28 @@
     display: block;
     width: auto;
     background-color: var(--cor-branco);
+  }
+  .container__btn:checked {
+    background: var(--cor-azul-degrade);
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .container__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-black);
+  }
+
+  .cabecalho {
+    padding: 0 2em;
+  }
+
+  .opt {
+    margin-right: auto;
+  }
+  .container__text {
+    display: block;
   }
 }
