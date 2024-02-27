@@ -42,3 +42,13 @@ hr {
     text-transform: uppercase;
   }
 }
+
+@media screen and (min-width: 1728px) {
+  .lista-footer {
+    border-left: 1px solid var(--cor-cinza-claro);
+    padding-left: 2em;
+  }
+  .footer {
+    padding: 3em 0;
+  }
+}
